@@ -58,7 +58,12 @@ h1 {
   cursor: pointer;
 }
 
-#status,
+#status {
+  display: none;
+  height: 120px;
+  margin-bottom: 8px;
+}
+
 #google,
 #microsoft,
 #other {
