@@ -64,14 +64,13 @@ h1 {
   margin-bottom: 8px;
 }
 
-#google,
-#microsoft,
-#other {
+.card {
   display: none;
   height: 120px;
   background-color: aliceblue;
   margin-bottom: 8px;
   border-radius: 8px;
+  padding: 18px;
 }
 
 img {
@@ -84,4 +83,8 @@ a:hover,
 a:visited,
 a:active {
   text-decoration: none;
+}
+
+h1 {
+  margin: 18px 0;
 }
